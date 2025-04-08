@@ -56,9 +56,9 @@ export default function Clock () {
         {clock.hour} : {clock.minute} : {clock.second}
       </div>
       <div>
-        <button onClick={() => takeSnapshot()}>CLICK</button>
+        <button onClick={() => takeSnapshot()}>CLOCK IN</button>
         {/* {state.count} */}
-        <button onClick={() => stopSnapshot()}>STOP</button>
+        <button onClick={() => stopSnapshot()}>CLOCK OUT</button>
       </div>
       {startTime && <label>{startTime}</label>}
       <br></br>
