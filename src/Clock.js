@@ -1,7 +1,7 @@
 import { useReducer, useEffect, useState } from "react";
 import "./styles.css";
 
-export default Clock = () => {
+export default function Clock () {
   const fetchHourFormate = () => {
     const hour = new Date().getHours() % 12;
     if (!hour) {

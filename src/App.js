@@ -1,6 +1,6 @@
 import { useReducer, useEffect, useState } from "react";
-import Clock from "./Clock";
-import Timer from "./Timer";
+import Clock from "./Clock.js";
+import Timer from "./Timer.js";
 import "./styles.css";
 
 export default function App() {
